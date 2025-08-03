@@ -54,17 +54,21 @@ TECHNOLOGIES USED:
   o React Router – Manages navigation and routing between application views. 
   o Axios – Handles HTTP requests between the client and backend API. 
   o CSS – Ensures responsive and user-friendly visual design across devices. 
+  
 • Backend: 
   o Node.js – A JavaScript runtime environment used to build fast and scalable server-side applications. 
   o Express.js – A minimalist web framework for creating robust APIs and handling middleware. 
+  
 • Database: 
   o MongoDB – A flexible NoSQL database used for storing user, file, and workspace data in JSON-like format. 
   o Authentication & Security: 
   o JWT (JSON Web Token) – Provides stateless authentication through token-based login sessions. 
   o bcrypt – Encrypts user passwords before storing them securely in the database. 
+  
 • File Storage: 
   o Local File System – Files are stored locally on the server during development. 
   o AWS S3 / Firebase (Optional) – Can be integrated for scalable cloud based file storage in production. 
+  
 • Utilities & Supporting Libraries: 
   o Multer – Middleware for handling multipart/form-data used in file uploads. 
   o UUID – Generates unique IDs for each uploaded or shared file. 
@@ -72,6 +76,7 @@ TECHNOLOGIES USED:
   o express-validator – Adds input validation and sanitization to backend routes. 
   o concurrently – Allows simultaneous running of backend and frontend during development. 
   o nodemon – Automatically restarts the server when file changes are detected. 
+  
 IMPLEMENTATION DETAILS: 
    Backend APIs: Built with Express and structured into RESTful endpoints (/api/users, /api/files, /api/workspaces). 
    Frontend React App: Modular components for login, dashboard, quick share, workspace, and theme control. 
